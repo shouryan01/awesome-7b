@@ -13,10 +13,43 @@ Tracking the best open-source 7B models
 
 | Name | Weights | Ollama? | Censorsed? | License | Web Demo | Notes
 |---|---|---|---|---|---|---|
-| phi-2 | [🤗 HF](https://huggingface.co/microsoft/phi-2) | No | Yes | MIT |
+| phi-2 | [🤗 HF](https://huggingface.co/microsoft/phi-2) | [Model](https://ollama.com/library/phi) | Yes | MIT |
 
 ## Larger than 7b Models
 
 | Name | Weights | Ollama? | Censorsed? | License | Web Demo | Notes
 |---|---|---|---|---|---|---|
-| SOLAR-10.7B-Instruct-v1.0-uncensored-GGUF | [🤗 HF](https://huggingface.co/microsoft/phi-2) | No | No | Apache 2.0 | it's insane for the size, and is uncensored
+| SOLAR-10.7B-Instruct-v1.0-uncensored-GGUF | [🤗 HF](https://huggingface.co/microsoft/phi-2) | [Model](https://ollama.com/library/solar) | No | Apache 2.0 | it's insane for the size, and is uncensored
+
+---
+
+### Best overall/general use models:
+- Mistral-7B-Instruct-v0.2
+- openchat-3.5-0106
+
+### Best coding:
+- ...
+
+### Best RAG:
+- ...
+
+### Best conversational / chatbot / roleplay :
+- ...
+
+### Best Multilingual:
+- ...
+
+### Best Multimodal/Vision:
+- ...
+
+### Best For Agents:
+- ...
+
+### Best For Function Calling:
+- ...
+
+### Best uncensored / NSFW:
+- ...
+
+### Best smaller model:
+- phi-2
