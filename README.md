@@ -11,12 +11,12 @@ Tracking the best open-source 7B models
 
 ## Smaller than 7b Models
 
-| Name | Weights | Censorsed? | License | Web Demo | Notes
-|---|---|---|---|---|---|
-| phi-2 | [🤗 HF](https://huggingface.co/microsoft/phi-2) | Yes | MIT |
+| Name | Weights | Ollama? | Censorsed? | License | Web Demo | Notes
+|---|---|---|---|---|---|---|
+| phi-2 | [🤗 HF](https://huggingface.co/microsoft/phi-2) | No | Yes | MIT |
 
 ## Larger than 7b Models
 
-| Name | Weights | Censorsed? | License | Web Demo | Notes
-|---|---|---|---|---|---|
-| SOLAR-10.7B-Instruct-v1.0-uncensored-GGUF | [🤗 HF](https://huggingface.co/microsoft/phi-2) | No | Apache 2.0 | it's insane for the size, and is uncensored
+| Name | Weights | Ollama? | Censorsed? | License | Web Demo | Notes
+|---|---|---|---|---|---|---|
+| SOLAR-10.7B-Instruct-v1.0-uncensored-GGUF | [🤗 HF](https://huggingface.co/microsoft/phi-2) | No | No | Apache 2.0 | it's insane for the size, and is uncensored
