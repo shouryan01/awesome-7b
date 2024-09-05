@@ -4,13 +4,15 @@ Tracking the best open-source llms that can *actually* run on consumer-level har
 
 <br />
 
+# Best Foundational Models
+
 ## Tiny Models (recommended for mobile)
 (model sizes <=6b) 
 
 | Name | Size | Context Length | Weights | Ollama |
 |---|---|---|---|---|
 | Gemma 2 | 2B | 8k | [🤗 HF](https://huggingface.co/google/gemma-2-2b-it) | [Model](https://ollama.com/library/gemma2:2b)
-| Phi-3 Mini | 3.8B | 4k (128k available) | [🤗 HF](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct) | [Model](https://ollama.com/library/phi3:3.8b)
+| Phi-3.5 Mini | 3.8B | 128k | [🤗 HF](https://huggingface.co/microsoft/Phi-3.5-mini-instruct) | [Model](https://ollama.com/library/phi3.5)
 
 
 ## Small Models (recommended for desktop)
@@ -44,6 +46,10 @@ Tracking the best open-source llms that can *actually* run on consumer-level har
 
 <br />
 
+# Best Finetunes (accepting PRs)
+| Name | Size | Context Length | Weights | Ollama |
+|---|---|---|---|---|
+
 ## FAQ
 
 ### What makes a model "good"?
@@ -66,7 +72,7 @@ It means how powerful the model is, how large the download size will be, and how
 It refers to how long your prompts to the LLM can be. Higher is better (but may be slower and lower quality).
 
 ### Which quant should I use?
-If you don't know what `quant` means, ignore this question. If you do, the largest your computer can handle. For most people, that's `q5_K_M`. Ollama's default is `q4_0`.
+If you don't know what `quant` means, stick to defaults. If you do, the largest your computer can handle. For most people, that's `q5_K_M`. Ollama's default is `q4_0`.
 
 
 
